@@ -60,6 +60,12 @@ header #avatar figcaption
 	padding: 0 2px;
 	
 }
+header #avatar figcaption:before
+{
+	content: "\e001";
+	font-family: icomoon;
+	font-size: 0.7em;
+}
 header #avatar img
 {
 	float: left;
@@ -105,6 +111,8 @@ nav #flechita_nav
 	margin-left: 0;
 }
 
+
+
 nav #flechita_nav:before
 {
 	content: "\e000";
@@ -123,18 +131,24 @@ nav #publicar_nav
 	background: #DD4F24;
 	float: right;
 	margin-right: 0;
-	padding-right: 0.5em;
+	padding-right: 0.8em;
+	position: relative;
 }
 nav #publicar_nav:after
 {
+	color: rgba(255,255,255,0.5);
 	content: "\e003";
 	color: white;
 	font-family: icomoon;
+	font-size: 1.8em;
+	position: absolute;
+	right: 0;
+	top: 0;
 }	
 nav #publicar_nav a
 {
 	display: inline-block;
-	padding: 0.5em 1em;
+	padding: 0.5em 2em 0.5em;
 	font-style: normal;
 	
 }
@@ -161,18 +175,44 @@ nav #publicar_nav a
 	color: #747474;
 	font-size: 0.9em;
 }
-
+#contenido .item .datos_item
+{
+	text-align: right;
+}
 #contenido .item .datos_item .tag_item
 {
 	color: white;
 	background:#22BCE0;
-	border-radius: 0.5em; 
+	border-radius: 0.5em;
+	float: left; 
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 
 
 
 }
+#contenido .item .datos_item .comentarios_item
+{
+	background: #878787;
+	border-radius: 4px;
+	color: white;
+	padding: 4px;
+}
+#contenido .item .datos_item .guardar
+{
+	margin: 0.1em;
+	text-decoration: none;
+}
+
+
+#contenido .item .datos_item .guardar:before
+{
+	color: #fd5;
+	content: "\e004";
+	font-family: icomoon;
+}
+
+
 #contenido .item .imagen_item
 {
 	float: left;
@@ -215,13 +255,22 @@ nav #publicar_nav a
 
 }
 #contenido .item .votacion .down:after
+#contenido .item .votacion .up:after
+{
+	font-family: "icomoon";
+	font-size: 3em;
+	vertical-align: bottom;
+}
+#contenido .item .votacion .down:after
 {	
 	content: "\e001";
+	color: red;
 	font-family: icomoon;
 }
 
 #contenido .item .votacion .up:after
 {	
 	content: "\e002";
+	color: green;
 	font-family: icomoon;
 }
