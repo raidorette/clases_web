@@ -152,7 +152,37 @@ nav #publicar_nav a
 	font-style: normal;
 	
 }
+#bienvenida
+{
+	display: block;
+	border-bottom: 1px solid #ccc;
+	float: right;
+	margin-right: 2%;
+	width: 25%;
+}
+#bienvenida h2
+{
+	color:#434343;
 
+}	
+
+
+#bienvenida #mensaje_subliminal
+#bienvenida #registro
+{
+	text-align: center;
+}
+
+#bienvenida #mensaje_subliminal
+{
+	font-size: 0.7em;
+}
+#bienvenida #registro
+{
+	background: #22BCE0;
+	color: white;
+
+}
 #contenido
 {
 	margin: 1em;
@@ -196,8 +226,24 @@ nav #publicar_nav a
 	background: #878787;
 	border-radius: 4px;
 	color: white;
+	margin: 0 0 0 2em;
 	padding: 4px;
+	text-decoration: none;
+
 }
+#contenido .item .datos_item .comentarios_item:after
+{
+	border-left: 5px solid transparent; 
+	border-right: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content: "";
+	left:10px;
+	position: absolute;
+	top: 100%;
+
+}
+
+
 #contenido .item .datos_item .guardar
 {
 	margin: 0.1em;
