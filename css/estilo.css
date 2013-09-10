@@ -181,21 +181,167 @@ nav #publicar_nav a
 {
 	background: #22BCE0;
 	color: white;
+	padding: 0.5em 1em;
 
 }
+
+#iteml
+{
+	margin: 1em;
+	width: 70%;
+}
+#iteml #itemloll
+{
+	background:white;
+	border-bottom: 3px solid #22BCE0;
+	height: 128px;
+	
+	margin-bottom: 3em;
+	position: relative;
+	text-decoration: none;
+	width: 70%;
+
+
+}
+
+#itemlol #itemloll p
+{
+	color: #747474;
+	font-size: 0.9em;
+}
+#itemlol #itemloll #datos_item
+{
+	text-align: right;
+
+}
+#itemlol #itemloll #datos_item #tag_item
+{
+	color: white;
+	background:#22BCE0;
+	border-radius: 0.5em;
+	float: left; 
+
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+
+
+
+}
+#itemlol #itemloll #datos_item #comentarios_item
+{
+	background: #878787;
+	border-radius: 4px;
+	color: white;
+	margin: 0 0 0 2em;
+	padding: 4px;
+	text-decoration: none;
+
+}
+#itemlol #itemloll #datos_item #comentarios_item:after
+{
+	border-left: 5px solid transparent; 
+	border-right: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content: "";
+	left:10px;
+	position: absolute;
+	top: 100%;
+
+}
+
+
+#itemlol #itemloll #datos_item #guardar
+{
+	margin: 0.1em;
+	text-decoration: none;
+}
+
+
+#itemlol #itemloll #datos_item #guardar:before
+{
+	color: #fd5;
+	content: "\e004";
+	font-family: icomoon;
+}
+
+
+#itemlol #itemloll #imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+#itemlol #itemloll #imagen_item img
+{
+	width: 96px;
+}
+
+#itemlol #itemloll #titulo_item
+{
+	
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em;
+
+}
+
+#itemlol #itemloll #titulo_item a
+{	
+	color: #444;
+	text-decoration: none;
+}
+
+
+#itemlol #itemloll #votacion
+{	
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin:3px 0 0 0;
+	padding:0.5em 0; 
+	position:absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+
+
+
+}
+#itemlol #itemloll #votacion #down:after
+#contenido #itemloll #votacion #up:after
+{
+	font-family: "icomoon";
+	font-size: 3em;
+	vertical-align: bottom;
+}
+#itemlol #itemloll #votacion #down:after
+{	
+	content: "\e001";
+	color: red;
+	font-family: icomoon;
+}
+
+#itemlol #itemloll #votacion #up:after
+{	
+	content: "\e002";
+	color: green;
+	font-family: icomoon;
+
+}
+
 #contenido
 {
 	margin: 1em;
 }
-
 #contenido .item
 {
 	background:white;
 	border-bottom: 3px solid #22BCE0;
 	height: 128px;
+	
 	margin-bottom: 3em;
 	position: relative;
 	text-decoration: none;
+	width: 70%;
 
 
 }
@@ -208,6 +354,7 @@ nav #publicar_nav a
 #contenido .item .datos_item
 {
 	text-align: right;
+
 }
 #contenido .item .datos_item .tag_item
 {
@@ -215,6 +362,7 @@ nav #publicar_nav a
 	background:#22BCE0;
 	border-radius: 0.5em;
 	float: left; 
+
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 
@@ -315,6 +463,62 @@ nav #publicar_nav a
 }
 
 #contenido .item .votacion .up:after
+{	
+	content: "\e002";
+	color: green;
+	font-family: icomoon;
+
+}
+#imagen 
+{margin-bottom: 20em;
+}
+#imagen #imagenlol #imagen_body img
+{
+	float: left;
+	
+}
+#imagen #imagenlol 
+{
+
+
+		
+	border-bottom: 3px solid #F45656;
+
+	margin-bottom: 3em;
+	position: absolute;
+	width: 70%;
+
+
+
+}
+#imagen #imagenlol  #votacion
+{	
+	background:white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin:3px 0 0 0;
+	padding:0.5em 0; 
+	position:absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+
+
+
+}
+#imagen #imagenlol  #votacion #down:after
+#imagen #imagenlol  #votacion #up:after
+{
+	font-family: "icomoon";
+	font-size: 3em;
+	vertical-align: bottom;
+}
+#imagen #imagenlol  #votacion #down:after
+{	
+	content: "\e001";
+	color: red;
+	font-family: icomoon;
+}
+#imagen #imagenlol  #votacion #up:after
 {	
 	content: "\e002";
 	color: green;
