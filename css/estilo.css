@@ -152,6 +152,29 @@ nav #publicar_nav a
 	font-style: normal;
 	
 }
+
+#actividades
+{
+
+	float: right;
+	margin-right: 2%;
+	margin-top: 15em;
+	width: 25%;
+
+
+}
+
+
+
+
+#bienvenida #mensaje
+{
+	color: #878787;
+	margin: 
+}
+
+
+
 #bienvenida
 {
 	display: block;
@@ -164,25 +187,43 @@ nav #publicar_nav a
 {
 	color:#434343;
 
-}	
+}
 
-
-#bienvenida #mensaje_subliminal
-#bienvenida #registro
+#bienvenida #mensaje_subliminal,
+#bienvenida #registro,
+#bienvenida #actividad
 {
 	text-align: center;
 }
 
 #bienvenida #mensaje_subliminal
 {
+	color: #878787;
 	font-size: 0.7em;
+}
+#bienvenida #registro, #bienvenida #actividad
+{
+	color: white;
+
 }
 #bienvenida #registro
 {
 	background: #22BCE0;
-	color: white;
 	padding: 0.5em 1em;
+}
+#bienvenida #actividad
+{
+	background:  #F45656;
+	padding: 0.5em 5em ;
+}
 
+#bienvenida #numero
+{	
+	border-radius: 0.5em;
+	background: #F45656; 
+	color: white;
+	padding: 0.5em; 
+	float: left;
 }
 
 #iteml
@@ -195,7 +236,6 @@ nav #publicar_nav a
 	background:white;
 	border-bottom: 3px solid #22BCE0;
 	height: 128px;
-	
 	margin-bottom: 3em;
 	position: relative;
 	text-decoration: none;
@@ -220,7 +260,6 @@ nav #publicar_nav a
 	background:#22BCE0;
 	border-radius: 0.5em;
 	float: left; 
-
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 
@@ -478,18 +517,20 @@ nav #publicar_nav a
 	
 }
 #imagen #imagenlol 
-{
-
-
-		
+{	
 	border-bottom: 3px solid #F45656;
-
 	margin-bottom: 3em;
 	position: absolute;
 	width: 70%;
 
 
 
+}
+
+
+#imagen #imagenlol #figcaption
+{
+	float: left;
 }
 #imagen #imagenlol  #votacion
 {	
